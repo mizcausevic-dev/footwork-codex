@@ -3,11 +3,19 @@
 ## Published release evidence
 
 - Repository: https://github.com/mizcausevic-dev/footwork-codex
-- Published release commit: `ce2f1bed9f9f03e61aa31700867a43cb727075b9`
-- Remote Git tree at publication read-back: `ab8b0a8b2afb7eff89867b1c14f5fdcc450ccb39`
+- Initial release-artifact commit: `ce2f1bed9f9f03e61aa31700867a43cb727075b9`
+- Remote Git tree at initial publication read-back: `ab8b0a8b2afb7eff89867b1c14f5fdcc450ccb39`
+- Public catalog and GitHub-profile revision: `07a809bfc9a3d75501d93b2f902442abbc93d26d`
 - GitHub Pages source: `main` branch, repository root (`/`)
 - Verified live URL: https://mizcausevic-dev.github.io/footwork-codex/
 - Pages API state at verification: `built`, public, HTTPS enforced.
+
+## Public presentation read-back
+
+- GitHub recognizes the repository `README.md`; the previous nonstandard `README-Codex.md` is not the repository README.
+- GitHub About now has a description, the live Pages homepage, and these topics: `footwork`, `midi`, `midi-pack`, `music-production`, `music-composition`, and `original-music`.
+- The redesigned Pages catalog contains the study selector, score/provenance section, validated preview and film, About/archive section, and original v2 cover image.
+- Browser inspection passed at a 1440px desktop viewport and a 390px mobile viewport. The final mobile check reported no horizontal overflow; the audio control changed from Play to Pause and back; and the About navigation reached `#about`.
 
 ## Live endpoint checks
 
