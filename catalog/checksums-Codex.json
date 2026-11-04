@@ -94,7 +94,7 @@
     {
       "path": "checks/build-metadata-Codex.json",
       "bytes": 588,
-      "sha256": "43ffa0ef3c7159d19fee515151a54473dbbbd3fed7fbf12f525176ebbb3f2788"
+      "sha256": "6efa1d03042c9405483f849b2b69d35ce133bbcd7a5e5d95156790e7aaa099b7"
     },
     {
       "path": "checks/fixtures/invalid-same-pitch-overlap.mid",
@@ -108,8 +108,8 @@
     },
     {
       "path": "docs/site-template.html",
-      "bytes": 20999,
-      "sha256": "dc814b765aea49191e6022c4ba54eb2c2b13a991b73bca5b908ba0e4fd7366ed"
+      "bytes": 21072,
+      "sha256": "d16c47fa0ab91b20e2a2295423e4038e32cdad1dd845e043c739306ee09fe921"
     },
     {
       "path": "downloads/footwork-codex-midi.zip",
@@ -138,8 +138,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 21054,
-      "sha256": "3ba640c2921203121ce7555f483c1ff6450dfcbb6ab2c10fa628accd105888bf"
+      "bytes": 21128,
+      "sha256": "3eac2b0ec7cbbac203634a9b038d3371e5bab7f55fd66b3f1933328c631f25a2"
     },
     {
       "path": "midi/f01-cross-grid/chord_pulse.mid",
