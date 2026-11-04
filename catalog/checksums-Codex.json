@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 25,
-      "sha256": "0f3467c5c208b6597e6ee2d91f0ec9d5b5d5f9ec9958864aea68fc7fca3542c6"
+      "bytes": 37,
+      "sha256": "d6cbf177a06951c0d5fdeb56e16bb4a911739ffa58e78a9a0533966f6aa244a6"
     },
     {
       "path": ".nojekyll",
@@ -88,8 +88,8 @@
     },
     {
       "path": "delivery-Codex.md",
-      "bytes": 692,
-      "sha256": "0a07b40e84fda4b1a3a95d58d5072dc00eb0705ecce3e1b3b91a2d6724558a11"
+      "bytes": 1152,
+      "sha256": "8371689f210152a967a6112e7c246b1e399e847915fed17f6b5b53ea7d5ffaa9"
     },
     {
       "path": "downloads/footwork-codex-midi.zip",
@@ -303,8 +303,8 @@
     },
     {
       "path": "tools/build_footwork.py",
-      "bytes": 44632,
-      "sha256": "e9278a24fbf75178ebfc0f6589b8c42714fe9bc09da88b4b8764f61ca4dff09d"
+      "bytes": 44671,
+      "sha256": "ffe0dd53c4cbf52fbce63031413a05128b829fac7f24c90bb498d9566164239f"
     },
     {
       "path": "tools/validate_footwork.py",
