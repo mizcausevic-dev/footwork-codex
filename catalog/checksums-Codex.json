@@ -12,6 +12,21 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "EXECPLAN-Codex.md",
+      "bytes": 6506,
+      "sha256": "9a98d24c530658bd17597da3a9ec3cab1c9a1e45c176ff7b972b275a64408191"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3828,
+      "sha256": "c42088a999d94c8ab6f659985b2e32ce952cc28264ddca4b8bb6187a5695f636"
+    },
+    {
+      "path": "RENDERER-METADATA-CORRECTION.md",
+      "bytes": 753,
+      "sha256": "40d1f0e5ef2fade78e474c6ca40fc3237eacdb668fce03a58b8b4d3508063101"
+    },
+    {
       "path": "art/footwork-codex-cover-v2-provenance.json",
       "bytes": 680,
       "sha256": "3f4b28e86c5dbc6446aecceb1c43ee94de8229054cecb31ad58ef39709e8788d"
@@ -78,8 +93,8 @@
     },
     {
       "path": "catalog/patch-recipes-Codex.json",
-      "bytes": 1534,
-      "sha256": "093ce3ae8b9aedf3f72dd9fa2c66d933c54a458a48d08cbf427637ad78564ec4"
+      "bytes": 1702,
+      "sha256": "96bc89690f3615d5f991989f89e9a92669275efe6cd7963f1787dcde805dd438"
     },
     {
       "path": "catalog/structural-regions-Codex.csv",
@@ -113,13 +128,8 @@
     },
     {
       "path": "downloads/footwork-codex-midi.zip",
-      "bytes": 34377,
-      "sha256": "63c748d1efdad2ac884cba29d69ba80397b04f41b181228d73c4062e3bc0618e"
-    },
-    {
-      "path": "EXECPLAN-Codex.md",
-      "bytes": 6506,
-      "sha256": "9a98d24c530658bd17597da3a9ec3cab1c9a1e45c176ff7b972b275a64408191"
+      "bytes": 36177,
+      "sha256": "8c921e108bea67b905d0592bcaad68d9ea172d04fa89fc318e73fcddbe057772"
     },
     {
       "path": "film/footwork-preview.mp4",
@@ -288,13 +298,8 @@
     },
     {
       "path": "preview/preview-manifest-Codex.json",
-      "bytes": 1054,
-      "sha256": "476ef20110a3fdb131f1f62e59c6df2b79d75938645ea9513ee203c99063ad99"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3667,
-      "sha256": "0d48bc36b2519f040377e647ce7e796c03a6654e2a9048d62433966b795fe9d5"
+      "bytes": 1107,
+      "sha256": "fcf870cb97dc6173c4e39648f6d473f75fd393aa9ee89c966ed6b24f64cce868"
     },
     {
       "path": "social/instagram-Codex/caption-Codex.txt",
@@ -323,8 +328,8 @@
     },
     {
       "path": "tools/build_footwork.py",
-      "bytes": 46672,
-      "sha256": "d746782d6acd6b1dcde4190527544e5b59765b73e6c01ec1f66af5e2ac057532"
+      "bytes": 46932,
+      "sha256": "bcf2c82d909ad5b5b4afce885c34f9a2c2e799660d5c3cda80ec89beffa6f994"
     },
     {
       "path": "tools/validate_footwork.py",

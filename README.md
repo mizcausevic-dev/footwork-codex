@@ -63,3 +63,7 @@ The deterministic generator writes the MIDI, catalogs, previews, draft copy, sta
 ## Draft materials
 
 The article and social files are drafts only. Their presence in this public repository does not mean they were posted to Medium, Instagram, or X.
+
+## Renderer metadata correction
+
+See [the correction receipt](RENDERER-METADATA-CORRECTION.md) for the documented signal-path update and original-tag boundary.
