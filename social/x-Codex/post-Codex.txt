@@ -1,0 +1,3 @@
+DRAFT: Footwork Codex is a four-study original MIDI collection. Cross Grid previews a 160 BPM score with displaced drum cells over a steady pulse. Preview, not a master. Illustration only. #MIDI #Composition
+
+Count: 207 characters using Python len

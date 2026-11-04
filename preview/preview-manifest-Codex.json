@@ -1,0 +1,30 @@
+{
+  "label": "preview, not a master.",
+  "preview_path": "preview/footwork-preview.mp3",
+  "preview_sha256": "88925ddfe0760f3fcb73b71c70845cbe17a57762355e4ec437ceda5343e6ea45",
+  "source_midi_path": "midi/f01-cross-grid/f01-cross-grid-combined.mid",
+  "source_midi_sha256": "6a541f20d6485e4afdb9e9a447c02af9bdcc440905a4a672425c5c263e8eca69",
+  "renderer": "footwork-simple-synth-Codex 1.0.0",
+  "renderer_configuration": {
+    "sample_rate": 44100,
+    "source_tracks": [
+      "chord_pulse",
+      "counter_texture",
+      "drums",
+      "principal_motif",
+      "sub_bass",
+      "vocal_like_synth"
+    ],
+    "processing": "per-voice envelopes only, followed by MP3 encoding"
+  },
+  "selection": {
+    "study": "f01",
+    "start_seconds": 0,
+    "end_seconds": 48.0
+  },
+  "measurement": {
+    "sample_peak": 0.145101,
+    "not_lufs_or_true_peak": true
+  },
+  "limitations": "Automated generation and decode checks only. Nobody auditioned this preview. Simple synthesis is not evidence of a finished production sound."
+}

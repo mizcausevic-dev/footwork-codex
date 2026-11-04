@@ -1,0 +1,18 @@
+{
+  "label": "preview, not a master.",
+  "video_path": "film/footwork-preview.mp4",
+  "video_sha256": "1a871ca7ef908e37b8e7a47abe06c2b7605f55a2642905f4d18d04c4c4983d7c",
+  "source_audio_path": "preview/footwork-preview.mp3",
+  "source_audio_sha256": "88925ddfe0760f3fcb73b71c70845cbe17a57762355e4ec437ceda5343e6ea45",
+  "excerpt": {
+    "start_seconds": 0,
+    "end_seconds": 20
+  },
+  "encode": {
+    "video": "libx264 CRF 20 at 1280x720 and 30fps",
+    "audio": "AAC 160k",
+    "note": "MP4 audio is re-encoded from MP3 and byte equality is not expected."
+  },
+  "poster_path": "art/hero.jpg",
+  "vtt_path": "film/footwork-preview.vtt"
+}

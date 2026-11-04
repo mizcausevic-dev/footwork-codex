@@ -1,0 +1,315 @@
+{
+  "pack_identifier": "footwork-codex",
+  "display_name": "Footwork Codex",
+  "collection": "Original four-study MIDI collection",
+  "generator_version": "1.0.0-Codex",
+  "seed": null,
+  "reproducible_command": "python tools/build_footwork.py",
+  "actual_tempo_bpm": 160,
+  "meter": "4/4",
+  "ppq": 480,
+  "end_tick": 61440,
+  "channels": [
+    {
+      "role": "chord_pulse",
+      "wire_channel": 0,
+      "user_facing_channel": 1,
+      "polyphony_cap": 3
+    },
+    {
+      "role": "sub_bass",
+      "wire_channel": 1,
+      "user_facing_channel": 2,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "principal_motif",
+      "wire_channel": 2,
+      "user_facing_channel": 3,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "vocal_like_synth",
+      "wire_channel": 3,
+      "user_facing_channel": 4,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "counter_texture",
+      "wire_channel": 4,
+      "user_facing_channel": 5,
+      "polyphony_cap": 2
+    },
+    {
+      "role": "drums",
+      "wire_channel": 9,
+      "user_facing_channel": 10,
+      "polyphony_cap": 4
+    }
+  ],
+  "studies": [
+    {
+      "id": "f01",
+      "title": "Cross Grid",
+      "tonic": "D",
+      "pitch_collection": "D natural minor",
+      "tempo_bpm": 160,
+      "meter": "4/4",
+      "parts": [
+        {
+          "role": "chord_pulse",
+          "path": "midi/f01-cross-grid/chord_pulse.mid",
+          "note_count": 240
+        },
+        {
+          "role": "sub_bass",
+          "path": "midi/f01-cross-grid/sub_bass.mid",
+          "note_count": 88
+        },
+        {
+          "role": "principal_motif",
+          "path": "midi/f01-cross-grid/principal_motif.mid",
+          "note_count": 184
+        },
+        {
+          "role": "vocal_like_synth",
+          "path": "midi/f01-cross-grid/vocal_like_synth.mid",
+          "note_count": 24
+        },
+        {
+          "role": "counter_texture",
+          "path": "midi/f01-cross-grid/counter_texture.mid",
+          "note_count": 16
+        },
+        {
+          "role": "drums",
+          "path": "midi/f01-cross-grid/drums.mid",
+          "note_count": 400
+        }
+      ],
+      "combined_path": "midi/f01-cross-grid/f01-cross-grid-combined.mid",
+      "regions": [
+        {
+          "name": "Introduction",
+          "start_bar": 1,
+          "bars": 8
+        },
+        {
+          "name": "Statement",
+          "start_bar": 9,
+          "bars": 8
+        },
+        {
+          "name": "Contrast",
+          "start_bar": 17,
+          "bars": 8
+        },
+        {
+          "name": "Transformed return",
+          "start_bar": 25,
+          "bars": 8
+        }
+      ]
+    },
+    {
+      "id": "f02",
+      "title": "Split Signal",
+      "tonic": "F",
+      "pitch_collection": "F Dorian",
+      "tempo_bpm": 160,
+      "meter": "4/4",
+      "parts": [
+        {
+          "role": "chord_pulse",
+          "path": "midi/f02-split-signal/chord_pulse.mid",
+          "note_count": 240
+        },
+        {
+          "role": "sub_bass",
+          "path": "midi/f02-split-signal/sub_bass.mid",
+          "note_count": 88
+        },
+        {
+          "role": "principal_motif",
+          "path": "midi/f02-split-signal/principal_motif.mid",
+          "note_count": 184
+        },
+        {
+          "role": "vocal_like_synth",
+          "path": "midi/f02-split-signal/vocal_like_synth.mid",
+          "note_count": 24
+        },
+        {
+          "role": "counter_texture",
+          "path": "midi/f02-split-signal/counter_texture.mid",
+          "note_count": 16
+        },
+        {
+          "role": "drums",
+          "path": "midi/f02-split-signal/drums.mid",
+          "note_count": 400
+        }
+      ],
+      "combined_path": "midi/f02-split-signal/f02-split-signal-combined.mid",
+      "regions": [
+        {
+          "name": "Introduction",
+          "start_bar": 1,
+          "bars": 8
+        },
+        {
+          "name": "Statement",
+          "start_bar": 9,
+          "bars": 8
+        },
+        {
+          "name": "Contrast",
+          "start_bar": 17,
+          "bars": 8
+        },
+        {
+          "name": "Transformed return",
+          "start_bar": 25,
+          "bars": 8
+        }
+      ]
+    },
+    {
+      "id": "f03",
+      "title": "Redline Gap",
+      "tonic": "B",
+      "pitch_collection": "B Phrygian",
+      "tempo_bpm": 160,
+      "meter": "4/4",
+      "parts": [
+        {
+          "role": "chord_pulse",
+          "path": "midi/f03-redline-gap/chord_pulse.mid",
+          "note_count": 240
+        },
+        {
+          "role": "sub_bass",
+          "path": "midi/f03-redline-gap/sub_bass.mid",
+          "note_count": 88
+        },
+        {
+          "role": "principal_motif",
+          "path": "midi/f03-redline-gap/principal_motif.mid",
+          "note_count": 184
+        },
+        {
+          "role": "vocal_like_synth",
+          "path": "midi/f03-redline-gap/vocal_like_synth.mid",
+          "note_count": 24
+        },
+        {
+          "role": "counter_texture",
+          "path": "midi/f03-redline-gap/counter_texture.mid",
+          "note_count": 16
+        },
+        {
+          "role": "drums",
+          "path": "midi/f03-redline-gap/drums.mid",
+          "note_count": 400
+        }
+      ],
+      "combined_path": "midi/f03-redline-gap/f03-redline-gap-combined.mid",
+      "regions": [
+        {
+          "name": "Introduction",
+          "start_bar": 1,
+          "bars": 8
+        },
+        {
+          "name": "Statement",
+          "start_bar": 9,
+          "bars": 8
+        },
+        {
+          "name": "Contrast",
+          "start_bar": 17,
+          "bars": 8
+        },
+        {
+          "name": "Transformed return",
+          "start_bar": 25,
+          "bars": 8
+        }
+      ]
+    },
+    {
+      "id": "f04",
+      "title": "Lattice Return",
+      "tonic": "A",
+      "pitch_collection": "A natural minor",
+      "tempo_bpm": 160,
+      "meter": "4/4",
+      "parts": [
+        {
+          "role": "chord_pulse",
+          "path": "midi/f04-lattice-return/chord_pulse.mid",
+          "note_count": 240
+        },
+        {
+          "role": "sub_bass",
+          "path": "midi/f04-lattice-return/sub_bass.mid",
+          "note_count": 88
+        },
+        {
+          "role": "principal_motif",
+          "path": "midi/f04-lattice-return/principal_motif.mid",
+          "note_count": 184
+        },
+        {
+          "role": "vocal_like_synth",
+          "path": "midi/f04-lattice-return/vocal_like_synth.mid",
+          "note_count": 24
+        },
+        {
+          "role": "counter_texture",
+          "path": "midi/f04-lattice-return/counter_texture.mid",
+          "note_count": 16
+        },
+        {
+          "role": "drums",
+          "path": "midi/f04-lattice-return/drums.mid",
+          "note_count": 400
+        }
+      ],
+      "combined_path": "midi/f04-lattice-return/f04-lattice-return-combined.mid",
+      "regions": [
+        {
+          "name": "Introduction",
+          "start_bar": 1,
+          "bars": 8
+        },
+        {
+          "name": "Statement",
+          "start_bar": 9,
+          "bars": 8
+        },
+        {
+          "name": "Contrast",
+          "start_bar": 17,
+          "bars": 8
+        },
+        {
+          "name": "Transformed return",
+          "start_bar": 25,
+          "bars": 8
+        }
+      ]
+    }
+  ],
+  "zip_path": "downloads/footwork-codex-midi.zip",
+  "preview_source_selection": {
+    "study": "f01",
+    "combined_file": "midi/f01-cross-grid/f01-cross-grid-combined.mid",
+    "start_seconds": 0
+  },
+  "limitations": [
+    "Original symbolic material, no samples.",
+    "Automated validation only; nobody auditioned these files.",
+    "Preview is not a master."
+  ]
+}

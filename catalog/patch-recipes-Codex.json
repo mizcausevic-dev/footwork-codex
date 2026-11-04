@@ -1,0 +1,54 @@
+{
+  "renderer": "footwork-simple-synth-Codex 1.0.0",
+  "midi_policy": "No program changes, controllers, pitch bends, keyswitches, or SysEx in symbolic exports.",
+  "gm_fallback": "Mappings are not encoded. A generic player may use its default piano-like pitched sound and GM-style channel 10 percussion.",
+  "roles": [
+    {
+      "role": "chord_pulse",
+      "description": "Clipped synthetic chord",
+      "wire_channel": 0,
+      "user_facing_channel": 1,
+      "polyphony_cap": 3
+    },
+    {
+      "role": "sub_bass",
+      "description": "Sub bass",
+      "wire_channel": 1,
+      "user_facing_channel": 2,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "principal_motif",
+      "description": "Principal melody",
+      "wire_channel": 2,
+      "user_facing_channel": 3,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "vocal_like_synth",
+      "description": "Original vocal-like synth",
+      "wire_channel": 3,
+      "user_facing_channel": 4,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "counter_texture",
+      "description": "Selective counter texture",
+      "wire_channel": 4,
+      "user_facing_channel": 5,
+      "polyphony_cap": 2
+    },
+    {
+      "role": "drums",
+      "description": "Dry percussion",
+      "wire_channel": 9,
+      "user_facing_channel": 10,
+      "polyphony_cap": 4
+    }
+  ],
+  "gain_stages": {
+    "role_target": "approximately -20 dBFS before summing",
+    "master_processing": "none",
+    "loudness_claim": "none"
+  }
+}

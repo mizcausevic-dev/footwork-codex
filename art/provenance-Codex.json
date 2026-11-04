@@ -1,0 +1,14 @@
+{
+  "hero_source_path": "art/hero-source.png",
+  "hero_source_sha256": "c1d10d031b2ea3cbd5eab2a46c3578badc3305465ca4e94d5dff461465010b0a",
+  "generator": "built-in image generation",
+  "classification": "Original abstract illustration, not a photograph, session record, or evidence that instruments were used.",
+  "derived_assets": [
+    "art/hero.jpg",
+    "art/square.jpg",
+    "social/instagram-Codex/footwork-square.jpg",
+    "social/instagram-Codex/footwork-portrait.jpg",
+    "social/x-Codex/footwork-card.jpg"
+  ],
+  "prompt_summary": "Staggered rhythm cells on a stable grid with a cobalt waveform. No people, logos, text, or instruments."
+}

@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "run_time_utc": "2026-11-04T00:18:22.407077+00:00",
+  "tool": "validate_footwork.py with Python 3.14.0",
+  "files_checked": 28,
+  "errors": [],
+  "warnings": [],
+  "midi_files": [
+    {
+      "path": "midi/f01-cross-grid/chord_pulse.mid",
+      "sha256": "2347d5486f498e6b92c1ef2a06c7304cfcebd7ab1a56b3e583bdf7021bf835a6",
+      "bytes": 2136,
+      "errors": []
+    },
+    {
+      "path": "midi/f01-cross-grid/counter_texture.mid",
+      "sha256": "ba1c5ee50d4c79bc2aaadffc20a8fd83b62f3cac2083562f8086a15ef67e3a6f",
+      "bytes": 206,
+      "errors": []
+    },
+    {
+      "path": "midi/f01-cross-grid/drums.mid",
+      "sha256": "b65aa07d036e77e734423f5801dc4ffd059f97c2e36aac21306847e6909d66b4",
+      "bytes": 3438,
+      "errors": []
+    },
+    {
+      "path": "midi/f01-cross-grid/f01-cross-grid-combined.mid",
+      "sha256": "6a541f20d6485e4afdb9e9a447c02af9bdcc440905a4a672425c5c263e8eca69",
+      "bytes": 8598,
+      "errors": []
+    },
+    {
+      "path": "midi/f01-cross-grid/principal_motif.mid",
+      "sha256": "c52e01a784cc3a948a4376562381c77da5914100f63cee56f286e4c444460969",
+      "bytes": 1664,
+      "errors": []
+    },
+    {
+      "path": "midi/f01-cross-grid/sub_bass.mid",
+      "sha256": "be56a36561959de3f26114d1197495695dd828cd8f3aadcb61ffb18d2c0cfbee",
+      "bytes": 933,
+      "errors": []
+    },
+    {
+      "path": "midi/f01-cross-grid/vocal_like_synth.mid",
+      "sha256": "92274105efa11ae99fc354e9d3e24860197bf4f25164909475710b211548835f",
+      "bytes": 303,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/chord_pulse.mid",
+      "sha256": "604b65ae3bac3a39f719175f5258de06e68ed1bceaa25d6b061de0ff281a9454",
+      "bytes": 2136,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/counter_texture.mid",
+      "sha256": "ca4ce712be8a0f3cece52796b5d2cac4dbe2447bbb5465c28510f067e8887e50",
+      "bytes": 206,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/drums.mid",
+      "sha256": "b65aa07d036e77e734423f5801dc4ffd059f97c2e36aac21306847e6909d66b4",
+      "bytes": 3438,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/f02-split-signal-combined.mid",
+      "sha256": "ae9f04cc51a498b2e9e1aa9a74af78f0d7f7520cbb2d57c272881d01e04f871a",
+      "bytes": 8614,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/principal_motif.mid",
+      "sha256": "2c7db47e2b558f6130e0eadb255548eb48f1e7ac4fba44ad811f2c8abd47bb2c",
+      "bytes": 1680,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/sub_bass.mid",
+      "sha256": "7d59e5d02d89606aef14fa33eca615ed4a53223dca6a67ab9a44ba0b8a337b7c",
+      "bytes": 933,
+      "errors": []
+    },
+    {
+      "path": "midi/f02-split-signal/vocal_like_synth.mid",
+      "sha256": "471f1d9841e0bb119b8eac11d0b4a8fa6b713cefa454aa6745dc23b279e70f30",
+      "bytes": 303,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/chord_pulse.mid",
+      "sha256": "db6a7514453f5b107295707835b32d71f6482cec376e764efb43c7802edb355f",
+      "bytes": 2137,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/counter_texture.mid",
+      "sha256": "bafeb7f206896e1a2f30e107d1e122a48445a3682fd71186a9143a4f083ebf41",
+      "bytes": 206,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/drums.mid",
+      "sha256": "b65aa07d036e77e734423f5801dc4ffd059f97c2e36aac21306847e6909d66b4",
+      "bytes": 3438,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/f03-redline-gap-combined.mid",
+      "sha256": "96666fd89391b9d887278f7cdeada8aca30380b8132097472b6b14ca1b1d478e",
+      "bytes": 8636,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/principal_motif.mid",
+      "sha256": "05d863b257a99d276faf321859438ebc66ca2ce0191d40945f73c5b39bb1e279",
+      "bytes": 1701,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/sub_bass.mid",
+      "sha256": "41077cf7bc3d92afa0bda47ca5555bd9968c67e9abbecdff17bd041bbf9a8454",
+      "bytes": 933,
+      "errors": []
+    },
+    {
+      "path": "midi/f03-redline-gap/vocal_like_synth.mid",
+      "sha256": "2512f1a5008e14cc0a740ad4c3e06f2c8bce4e22af26824094f166652c12a140",
+      "bytes": 303,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/chord_pulse.mid",
+      "sha256": "73e7b2998c1a797a698966a9742d0c67fab803cd9f7e56a91bd6c069d56c2597",
+      "bytes": 2136,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/counter_texture.mid",
+      "sha256": "8a99528d4e193dcc2a56ea4749970dcb6bddb08609c3ec8cdf00aadde7c52971",
+      "bytes": 206,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/drums.mid",
+      "sha256": "b65aa07d036e77e734423f5801dc4ffd059f97c2e36aac21306847e6909d66b4",
+      "bytes": 3438,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/f04-lattice-return-combined.mid",
+      "sha256": "4372ac4bf7ec92e6d60eb667432a25fd0dff67907715c788f8b0566dd381d069",
+      "bytes": 8586,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/principal_motif.mid",
+      "sha256": "bfd6f243fdcb089a6fd1058ad337e09d8d6209db4dc7bfbb4d589f765594cb89",
+      "bytes": 1652,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/sub_bass.mid",
+      "sha256": "af6ee79d00af39ab5a0a076cdb656860c81cdf9d35de275f33df848745354cb0",
+      "bytes": 933,
+      "errors": []
+    },
+    {
+      "path": "midi/f04-lattice-return/vocal_like_synth.mid",
+      "sha256": "88c16ad5c720070ed2c229e1da9772ba769f41073740a642f8a1ee8fb9be5432",
+      "bytes": 303,
+      "errors": []
+    }
+  ],
+  "media": {
+    "preview": {
+      "path": "preview/footwork-preview.mp3",
+      "sha256": "88925ddfe0760f3fcb73b71c70845cbe17a57762355e4ec437ceda5343e6ea45"
+    },
+    "film": {
+      "path": "film/footwork-preview.mp4",
+      "sha256": "1a871ca7ef908e37b8e7a47abe06c2b7605f55a2642905f4d18d04c4c4983d7c"
+    },
+    "hero": {
+      "path": "art/hero.jpg",
+      "sha256": "8713f1b8cce585a02b642ead203fe2bd901d75ef1a37d1d1e383b9558d732040"
+    },
+    "square": {
+      "path": "art/square.jpg",
+      "sha256": "1c6d302949c7b18cf4c9fdfbce755eeab80e8abf17714fadca150876482e4321"
+    },
+    "instagram_square": {
+      "path": "social/instagram-Codex/footwork-square.jpg",
+      "sha256": "1c6d302949c7b18cf4c9fdfbce755eeab80e8abf17714fadca150876482e4321"
+    },
+    "instagram_portrait": {
+      "path": "social/instagram-Codex/footwork-portrait.jpg",
+      "sha256": "2d48763fd847f31ea500b909222a4e7fcc373ce55e7ec6019331e3d80569bf5f"
+    },
+    "x_image": {
+      "path": "social/x-Codex/footwork-card.jpg",
+      "sha256": "1c6d302949c7b18cf4c9fdfbce755eeab80e8abf17714fadca150876482e4321"
+    }
+  },
+  "negative_control": {
+    "path": "checks/fixtures/invalid-same-pitch-overlap.mid",
+    "expected_result": "rejected for same-pitch overlap",
+    "passed": true
+  },
+  "limitations": [
+    "Automated validation only.",
+    "Nobody auditioned these files.",
+    "Duplicate detection is structural within this pack, not exhaustive copyright clearance."
+  ]
+}

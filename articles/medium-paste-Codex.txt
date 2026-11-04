@@ -1,0 +1,14 @@
+
+## Subtitle
+
+Footwork Codex documents four original 160 BPM symbolic studies where short gestures step around a steady pulse.
+
+Tags: MIDI, composition, music production, synthesis, arrangement
+
+The collection is deliberately bounded: 32 bars per study, 4/4 meter, 480 PPQ, six named playback roles, and a visible structural map. Each score has an introduction, statement, contrast, and transformed return. The material is original composition, not a reconstruction of recordings or a claim to represent a scene or community.
+
+The included audio is generated from committed symbolic events with a simple synthesizer. It is a preview, not a master. It demonstrates event timing and source selection, not finished production sound. Automated checks reopened the MIDI and media bytes; nobody auditioned these files.
+
+The catalog links the score, combined files, validation report, audio preview, captioned film, and draft social assets. Use either a combined arrangement or separate part files, never both stacked together.
+
+Call to action: Open the Footwork Codex catalog, inspect the validation record, and download the study archive if the documented limitations fit your workflow.

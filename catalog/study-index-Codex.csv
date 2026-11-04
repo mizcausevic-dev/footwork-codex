@@ -1,0 +1,5 @@
+study_id,title,collection,tonic,tempo_bpm,meter,ppq,bars,end_tick,combined_path,roles
+f01,Cross Grid,D natural minor,D,160,4/4,480,32,61440,midi/f01-cross-grid/f01-cross-grid-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+f02,Split Signal,F Dorian,F,160,4/4,480,32,61440,midi/f02-split-signal/f02-split-signal-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+f03,Redline Gap,B Phrygian,B,160,4/4,480,32,61440,midi/f03-redline-gap/f03-redline-gap-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+f04,Lattice Return,A natural minor,A,160,4/4,480,32,61440,midi/f04-lattice-return/f04-lattice-return-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums

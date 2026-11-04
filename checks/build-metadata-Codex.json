@@ -1,0 +1,15 @@
+{
+  "generator_version": "1.0.0-Codex",
+  "source_revision_sha256": "e9278a24fbf75178ebfc0f6589b8c42714fe9bc09da88b4b8764f61ca4dff09d",
+  "commands": [
+    "python tools/build_footwork.py",
+    "python tools/validate_footwork.py"
+  ],
+  "tool_versions": {
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "seed": null,
+  "run_time_utc": "2026-11-04T00:18:19.684478+00:00"
+}
