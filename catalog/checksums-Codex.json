@@ -12,6 +12,21 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "art/footwork-codex-cover-v2-provenance.json",
+      "bytes": 680,
+      "sha256": "3f4b28e86c5dbc6446aecceb1c43ee94de8229054cecb31ad58ef39709e8788d"
+    },
+    {
+      "path": "art/footwork-codex-cover-v2.png",
+      "bytes": 3458026,
+      "sha256": "0fffa8901f18673b31799ad6504f1e3d81027482c1ba9f802c0f96975ec194c9"
+    },
+    {
+      "path": "art/footwork-codex-cover-v2.webp",
+      "bytes": 368394,
+      "sha256": "7d1197a766e88e8a7aba785dfac3f09f6b2b2f7b87d76b9640790fc2723ac935"
+    },
+    {
       "path": "art/hero-source.png",
       "bytes": 2602539,
       "sha256": "c1d10d031b2ea3cbd5eab2a46c3578badc3305465ca4e94d5dff461465010b0a"
@@ -79,7 +94,7 @@
     {
       "path": "checks/build-metadata-Codex.json",
       "bytes": 588,
-      "sha256": "ef293c2aaf62bee660b39c219d4a19ef09c3bd2dfd0aaa19723df72b11be1631"
+      "sha256": "ac445c37462ef531bed116a55c12ac416d46655319e31ddc69a0c478b052423f"
     },
     {
       "path": "checks/fixtures/invalid-same-pitch-overlap.mid",
@@ -90,6 +105,11 @@
       "path": "delivery-Codex.md",
       "bytes": 1152,
       "sha256": "8371689f210152a967a6112e7c246b1e399e847915fed17f6b5b53ea7d5ffaa9"
+    },
+    {
+      "path": "docs/site-template.html",
+      "bytes": 20733,
+      "sha256": "55407b8cb46eee6c4d3f4affc4604ee42169f36133bc260160dd4ea021c5def7"
     },
     {
       "path": "downloads/footwork-codex-midi.zip",
@@ -118,8 +138,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8194,
-      "sha256": "5bb1e0e483ad65c796081b9351a5ec29686355dbfc416c2bf8a525b09901a144"
+      "bytes": 20786,
+      "sha256": "0c158faa3a45c6b081e20e2e991b281379a62194bd6a7b918d92c7f999f583c6"
     },
     {
       "path": "midi/f01-cross-grid/chord_pulse.mid",
@@ -272,9 +292,9 @@
       "sha256": "476ef20110a3fdb131f1f62e59c6df2b79d75938645ea9513ee203c99063ad99"
     },
     {
-      "path": "README-Codex.md",
-      "bytes": 1922,
-      "sha256": "3223e7df655fbd19abd9bc844602949d8d7fdc354dd40637fda4651495d74bfe"
+      "path": "README.md",
+      "bytes": 3667,
+      "sha256": "0d48bc36b2519f040377e647ce7e796c03a6654e2a9048d62433966b795fe9d5"
     },
     {
       "path": "social/instagram-Codex/caption-Codex.txt",
@@ -303,8 +323,8 @@
     },
     {
       "path": "tools/build_footwork.py",
-      "bytes": 44671,
-      "sha256": "ffe0dd53c4cbf52fbce63031413a05128b829fac7f24c90bb498d9566164239f"
+      "bytes": 46672,
+      "sha256": "d746782d6acd6b1dcde4190527544e5b59765b73e6c01ec1f66af5e2ac057532"
     },
     {
       "path": "tools/validate_footwork.py",

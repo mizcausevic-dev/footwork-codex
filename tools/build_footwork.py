@@ -553,7 +553,7 @@ def write_catalog(all_scores: dict[str, dict[str, list[dict]]], combined: list[P
     write_json(ROOT / "catalog" / "catalog-Codex.json", data)
 
 
-def write_site() -> None:
+def write_site_legacy() -> None:
     rows = "\n".join("<tr><td>" + study["id"] + "</td><td>" + study["title"] + "</td><td>" + study["collection"] + "</td><td>160</td><td><a href=\"midi/" + study["id"] + "-" + study["slug"] + "/" + study["id"] + "-" + study["slug"] + "-combined.mid\">combined MIDI</a></td></tr>" for study in STUDIES)
     regions = "\n".join("<li><b>" + label + "</b>, bars " + str(start + 1) + " to " + str(start + length) + ", ticks " + str(start * BAR_TICKS) + " to " + str((start + length) * BAR_TICKS) + "</li>" for _, label, start, length in SECTIONS)
     diagram = """<svg viewBox="0 0 960 150" role="img" aria-labelledby="diagram-title diagram-desc"><title id="diagram-title">Footwork Codex file contract</title><desc id="diagram-desc">Original score events flow to MIDI files and a combined MIDI, then to validation and a simple-synth preview, then to a captioned film and catalog.</desc><style>.b{fill:#161a20;stroke:#e7e0d3;stroke-width:2}.t{fill:#e7e0d3;font:14px system-ui}.a{stroke:#de5e3d;stroke-width:3;marker-end:url(#m)}</style><defs><marker id="m" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8z" fill="#de5e3d"/></marker></defs><rect class="b" x="10" y="45" width="140" height="55" rx="9"/><text class="t" x="29" y="77">score events</text><rect class="b" x="220" y="45" width="150" height="55" rx="9"/><text class="t" x="242" y="69">28 MIDI files</text><text class="t" x="242" y="88">and ZIP</text><rect class="b" x="440" y="45" width="150" height="55" rx="9"/><text class="t" x="460" y="77">read-back validator</text><rect class="b" x="660" y="20" width="135" height="55" rx="9"/><text class="t" x="685" y="52">MP3 preview</text><rect class="b" x="660" y="92" width="135" height="45" rx="9"/><text class="t" x="691" y="120">MP4 and VTT</text><line class="a" x1="150" y1="72" x2="220" y2="72"/><line class="a" x1="370" y1="72" x2="440" y2="72"/><line class="a" x1="590" y1="72" x2="660" y2="47"/><line class="a" x1="590" y1="72" x2="660" y2="114"/></svg>"""
@@ -571,42 +571,80 @@ def write_site() -> None:
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
 
 
+def write_site() -> None:
+    template = (ROOT / "docs" / "site-template.html").read_text(encoding="utf-8")
+    (ROOT / "index.html").write_text(template, encoding="utf-8")
+    (ROOT / ".nojekyll").write_text("", encoding="utf-8")
+
+
 def write_documents() -> None:
     readme = """# Footwork Codex
 
-Four original note-only MIDI studies. This uses a bounded creative direction about rhythmic displacement around a steady underlying grid. It does not claim to define or represent a genre, history, or community.
+Four original note-only MIDI studies for producers who want to pull rhythm apart without losing the grid.
 
-## Contents
+**Live catalog:** https://mizcausevic-dev.github.io/footwork-codex/
 
-Four 32-bar studies: Cross Grid, Split Signal, Redline Gap, and Lattice Return.
+This is a documented symbolic-composition release, not a sample pack or a claim to define a genre, its history, or its communities.
 
-160 BPM, 4/4, PPQ 480, and exactly 61,440 ticks per study.
+## What is here
 
-There are 28 MIDI files: six Format 0 role exports and one Format 1 combined file per study. A ZIP, checked CSV catalogs, patch recipes, MP3 preview, captioned film, JPG art, DRAFT social assets, and DRAFT article are included.
+| Study | Pitch collection | Frame |
+| --- | --- | --- |
+| f01 Cross Grid | D natural minor | 32 bars · 160 BPM · 4/4 |
+| f02 Split Signal | F Dorian | 32 bars · 160 BPM · 4/4 |
+| f03 Redline Gap | B Phrygian | 32 bars · 160 BPM · 4/4 |
+| f04 Lattice Return | A natural minor | 32 bars · 160 BPM · 4/4 |
+
+The release contains 28 MIDI files: six Format 0 role exports and one Format 1 combined arrangement per study. It also includes the download ZIP, checked CSV/JSON catalogs, patch recipes, an MP3 preview, captioned film, original artwork, and draft public-facing copy.
+
+## Start here
+
+1. Open the [live catalog](https://mizcausevic-dev.github.io/footwork-codex/), or download `downloads/footwork-codex-midi.zip`.
+2. Choose either a combined arrangement or its separate part files. **Do not stack both together.**
+3. Check `catalog/patch-recipes-Codex.json` for role/channel mapping and `catalog/study-index-Codex.csv` for the compact index.
+4. Inspect `checks/validation-report-Codex.json` before relying on a technical claim.
+
+## File contract
+
+- 480 PPQ, 4/4, 160 BPM, 61,440 end ticks per study.
+- Five pitched roles use user-facing channels 1–5 (wire channels 0–4); drums use user-facing channel 10 (wire channel 9).
+- Bass and principal motif are monophonic; other roles stay within their declared polyphony limits.
+- No program changes are encoded. A generic MIDI player may substitute its own default sound for pitched channels and a GM-style drum map on channel 10.
+- The source-facing records are in `catalog/`, including note events, harmonic events, structural regions, the drum map, and file checksums.
+
+## Verification boundary
+
+The validator reopens final bytes and checks MIDI parsing, structure, channels, event timing, note pairing, ranges, selected monophonic roles, same-pitch overlap, exact end ticks, CSV agreement, ZIP safety, media decode properties, and a negative overlap fixture.
+
+It does **not** certify groove, melodic quality, commercial suitability, copyright clearance, physical playability, or cultural authenticity. Automated validation passed; nobody auditioned the files.
+
+The MP3 is rendered from committed f01 combined MIDI with a documented simple synthesizer. It is a **preview, not a master**. The MP4 audio is re-encoded from that MP3 and is not expected to match byte-for-byte.
 
 ## Build
 
-Run: python tools/build_footwork.py
+```powershell
+python tools/build_footwork.py
+python tools/validate_footwork.py
+python -m http.server 4173
+```
 
-Run: python tools/validate_footwork.py
+The deterministic generator writes the MIDI, catalogs, previews, draft copy, static site, and checksum manifest. `docs/site-template.html` is the Pages source template; the generator copies it to `index.html`.
 
-Serve: python -m http.server 4173
+## Repository map
 
-## Preview and limitations
+- `midi/` — individual roles and combined arrangements.
+- `catalog/` — machine-readable event and integrity records.
+- `downloads/` — release ZIP.
+- `preview/` and `film/` — derived listening and viewing references.
+- `art/` — original abstract visuals and provenance records.
+- `docs/site-template.html` — public GitHub Pages template.
+- `checks/` — validation output and build metadata.
 
-The preview MP3 is rendered from the committed f01 combined MIDI using the documented footwork simple synth renderer. It is a preview, not a master. The renderer uses simple oscillators and envelopes; it does not establish polished production sound. MP4 audio is re-encoded from MP3 and is not expected to match it byte-for-byte.
+## Draft materials
 
-No program changes are encoded. A generic MIDI player may substitute its own default sound for pitched channels and a GM-style drum map on channel 10. See catalog/patch-recipes-Codex.json.
-
-Automated validation reopened final bytes. Nobody auditioned these files. The validator checks MIDI parsing, structure, channels, event timing, note pairing, ranges, selected monophonic roles, same-pitch overlap, exact end ticks, CSV agreement, ZIP safety, and a negative overlap fixture. It does not certify groove, melodic quality, commercial suitability, copyright clearance, or physical playability.
-
-Use the combined file or separate role files, never both stacked together.
-
-## Draft publicity
-
-Article and social copy are drafts only. Their presence here does not mean they were posted externally.
+The article and social files are drafts only. Their presence in this public repository does not mean they were posted to Medium, Instagram, or X.
 """
-    (ROOT / "README-Codex.md").write_text(readme, encoding="utf-8")
+    (ROOT / "README.md").write_text(readme, encoding="utf-8")
     delivery = """# Footwork Codex delivery record
 
 ## Generated locally
@@ -626,7 +664,8 @@ Article and social copy are drafts only. Their presence here does not mean they 
 
 Automated validation only; nobody auditioned the files. The preview is not a master.
 """
-    (ROOT / "delivery-Codex.md").write_text(delivery, encoding="utf-8")
+    if not (ROOT / "delivery-Codex.md").exists():
+        (ROOT / "delivery-Codex.md").write_text(delivery, encoding="utf-8")
 
 
 def write_metadata() -> None:
