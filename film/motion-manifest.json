@@ -1,0 +1,26 @@
+{
+  "title": "Footwork",
+  "study": "f01",
+  "bpm": 160,
+  "source_audio": "preview/footwork-preview.mp3",
+  "source_audio_sha256": "88925ddfe0760f3fcb73b71c70845cbe17a57762355e4ec437ceda5343e6ea45",
+  "source_midi": "midi/f01-cross-grid/f01-cross-grid-combined.mid",
+  "source_midi_sha256": "6a541f20d6485e4afdb9e9a447c02af9bdcc440905a4a672425c5c263e8eca69",
+  "source_events": "catalog/note-events-Codex.csv",
+  "source_events_sha256": "ed7f9931c344cee8a1df660b6c56e87b6a4787d1c6c30fea711705e4bd806415",
+  "art_source_file": "film/motion-artwork.jpg",
+  "art_source_sha256": "8713f1b8cce585a02b642ead203fe2bd901d75ef1a37d1d1e383b9558d732040",
+  "excerpt_start_seconds": 0,
+  "duration_seconds": 18.0,
+  "video": "film/motion-preview.mp4",
+  "video_sha256": "8a8c7e3d71889c1213c9524e8b087f86c8057911682026629c832c3dde5c0c3f",
+  "caption": "film/motion-preview.vtt",
+  "resolution": "960x540",
+  "fps": 15,
+  "visualization": "Scrolling note events from the selected score over a moving cover image",
+  "disclosure": "preview, not master",
+  "limitations": [
+    "Simple-synth rendering, not a recorded performance.",
+    "No human listening review recorded."
+  ]
+}
