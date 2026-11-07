@@ -12,26 +12,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "EXECPLAN-Codex.md",
-      "bytes": 6506,
-      "sha256": "9a98d24c530658bd17597da3a9ec3cab1c9a1e45c176ff7b972b275a64408191"
-    },
-    {
-      "path": "MOTION-PREVIEW.md",
-      "bytes": 777,
-      "sha256": "6863946628d05256019b4976d4ab2f507774d1d3575a66515ebd9a725f871138"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3828,
-      "sha256": "c42088a999d94c8ab6f659985b2e32ce952cc28264ddca4b8bb6187a5695f636"
-    },
-    {
-      "path": "RENDERER-METADATA-CORRECTION.md",
-      "bytes": 753,
-      "sha256": "40d1f0e5ef2fade78e474c6ca40fc3237eacdb668fce03a58b8b4d3508063101"
-    },
-    {
       "path": "art/footwork-codex-cover-v2-provenance.json",
       "bytes": 680,
       "sha256": "3f4b28e86c5dbc6446aecceb1c43ee94de8229054cecb31ad58ef39709e8788d"
@@ -133,8 +113,13 @@
     },
     {
       "path": "downloads/footwork-codex-midi.zip",
-      "bytes": 36177,
-      "sha256": "8c921e108bea67b905d0592bcaad68d9ea172d04fa89fc318e73fcddbe057772"
+      "bytes": 37164,
+      "sha256": "e1d8320262cbaa807e91d12ea63a3ddc92ecb900c17dea150b71026c935cc2a8"
+    },
+    {
+      "path": "EXECPLAN-Codex.md",
+      "bytes": 6506,
+      "sha256": "9a98d24c530658bd17597da3a9ec3cab1c9a1e45c176ff7b972b275a64408191"
     },
     {
       "path": "film/footwork-preview.mp4",
@@ -183,8 +168,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 21068,
-      "sha256": "15feb296a67238ebbcb11cd9c74d76b20b9a201cd2a0d6c01807bc895279e873"
+      "bytes": 21258,
+      "sha256": "bd0532f2e0137e755c43615e0fa38db9cd2d6fe34586e201469ce08ae3b5fb3c"
     },
     {
       "path": "midi/f01-cross-grid/chord_pulse.mid",
@@ -327,6 +312,16 @@
       "sha256": "88c16ad5c720070ed2c229e1da9772ba769f41073740a642f8a1ee8fb9be5432"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
+      "path": "MOTION-PREVIEW.md",
+      "bytes": 777,
+      "sha256": "6863946628d05256019b4976d4ab2f507774d1d3575a66515ebd9a725f871138"
+    },
+    {
       "path": "preview/footwork-preview.mp3",
       "bytes": 1165523,
       "sha256": "88925ddfe0760f3fcb73b71c70845cbe17a57762355e4ec437ceda5343e6ea45"
@@ -335,6 +330,16 @@
       "path": "preview/preview-manifest-Codex.json",
       "bytes": 1107,
       "sha256": "fcf870cb97dc6173c4e39648f6d473f75fd393aa9ee89c966ed6b24f64cce868"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3878,
+      "sha256": "2c6179de91a1137d9e63c80a9b9cefc0511ff1b96e14ff711a2405fdae253c6b"
+    },
+    {
+      "path": "RENDERER-METADATA-CORRECTION.md",
+      "bytes": 753,
+      "sha256": "40d1f0e5ef2fade78e474c6ca40fc3237eacdb668fce03a58b8b4d3508063101"
     },
     {
       "path": "social/instagram-Codex/caption-Codex.txt",
