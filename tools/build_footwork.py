@@ -364,11 +364,15 @@ def write_catalog_csvs(all_scores: dict[str, dict[str, list[dict]]]) -> None:
 
 
 def make_zip(parts: list[Path], combined: list[Path]) -> Path:
+    license_file = ROOT / "MIDI-BUYER-LICENSE-v1.0.txt"
+    if not license_file.is_file() or hashlib.sha256(license_file.read_bytes()).hexdigest() != "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9":
+        raise ValueError("Approved MIDI buyer license v1.0 is missing or modified")
     archive = ROOT / "downloads" / "footwork-codex-midi.zip"
     metadata = [ROOT / "catalog" / name for name in ["study-index-Codex.csv", "note-events-Codex.csv", "structural-regions-Codex.csv", "harmonic-events-Codex.csv", "drum-map-Codex.csv", "patch-recipes-Codex.json"]]
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as output:
         for path in parts + combined + metadata:
             output.write(path, relative(path))
+        output.write(license_file, "MIDI-BUYER-LICENSE-v1.0.txt")
     return archive
 
 
@@ -688,6 +692,9 @@ def write_checksums() -> None:
 
 
 def main() -> int:
+    license_file = ROOT / "MIDI-BUYER-LICENSE-v1.0.txt"
+    if not license_file.is_file() or hashlib.sha256(license_file.read_bytes()).hexdigest() != "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9":
+        raise ValueError("Approved MIDI buyer license v1.0 is missing or modified")
     for name in ["midi", "preview", "film", "art", "social/instagram-Codex", "social/x-Codex", "articles", "catalog", "checks/fixtures", "downloads", "docs"]:
         (ROOT / name).mkdir(parents=True, exist_ok=True)
     all_scores, parts, combined = {}, [], []

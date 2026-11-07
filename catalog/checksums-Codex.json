@@ -368,8 +368,8 @@
     },
     {
       "path": "tools/build_footwork.py",
-      "bytes": 46932,
-      "sha256": "bcf2c82d909ad5b5b4afce885c34f9a2c2e799660d5c3cda80ec89beffa6f994"
+      "bytes": 47602,
+      "sha256": "6e48e3be6ca1f2e0ebbee1705d98eac2993eec4de937db0e14dffdb4cd246a7b"
     },
     {
       "path": "tools/render_motion_preview.py",
@@ -378,8 +378,8 @@
     },
     {
       "path": "tools/validate_footwork.py",
-      "bytes": 15967,
-      "sha256": "084fde417bf50278e650cbfbc8561f7cd79be402f6480f9384f073591914fe77"
+      "bytes": 16528,
+      "sha256": "7a52ea16f664f95711d337aae16c79e0c86a30a72ce791393584c7d0cc15543f"
     }
   ]
 }
